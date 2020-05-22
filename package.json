@@ -1,0 +1,41 @@
+{
+  "name": "insurance",
+  "version": "1.0.0",
+  "description": "Service to calculate insurance cost",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "mocha --opts test/unit/mocha.opts",
+    "test:integration": "mocha --opts test/integration/mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanymedina/insurance.git"
+  },
+  "keywords": [
+    "insurance",
+    "bice",
+    "interview"
+  ],
+  "author": "Yulianny Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanymedina/insurance/issues"
+  },
+  "homepage": "https://github.com/nanymedina/insurance#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nock": "^12.0.3",
+    "sinon": "^9.0.2",
+    "supertest": "^4.0.2"
+  }
+}

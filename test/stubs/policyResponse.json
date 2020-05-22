@@ -1,0 +1,123 @@
+{
+  "message": "Go Serverless v1.0! Your function executed successfully!",
+  "policy": {
+    "company_percentage": 80,
+    "has_dental_care": false,
+    "totalCost": {
+      "cost": 2.11952,
+      "currency": "UF"
+    },
+    "workers": [
+      {
+        "age": 67,
+        "childs": 4,
+        "dentalCare": {
+          "copay": 0.248,
+          "cost": 0,
+          "currency": "UF",
+          "price": 0.248
+        },
+        "health": {
+          "copay": 0.5599,
+          "cost": 0,
+          "currency": "UF",
+          "price": 0.5599
+        },
+        "total": {
+          "copay": 0.8079,
+          "cost": 0,
+          "currency": "UF",
+          "price": 0.8079
+        }
+      },
+      {
+        "age": 34,
+        "childs": 3,
+        "dentalCare": {
+          "copay": 0.0496,
+          "cost": 0.1984,
+          "currency": "UF",
+          "price": 0.248
+        },
+        "health": {
+          "copay": 0.11198,
+          "cost": 0.44792,
+          "currency": "UF",
+          "price": 0.5599
+        },
+        "total": {
+          "copay": 0.16158,
+          "cost": 0.64632,
+          "currency": "UF",
+          "price": 0.8079
+        }
+      },
+      {
+        "age": 50,
+        "childs": 2,
+        "dentalCare": {
+          "copay": 0.0496,
+          "cost": 0.1984,
+          "currency": "UF",
+          "price": 0.248
+        },
+        "health": {
+          "copay": 0.11198,
+          "cost": 0.44792,
+          "currency": "UF",
+          "price": 0.5599
+        },
+        "total": {
+          "copay": 0.16158,
+          "cost": 0.64632,
+          "currency": "UF",
+          "price": 0.8079
+        }
+      },
+      {
+        "age": 46,
+        "childs": 0,
+        "dentalCare": {
+          "copay": 0.024,
+          "cost": 0.096,
+          "currency": "UF",
+          "price": 0.12
+        },
+        "health": {
+          "copay": 0.0558,
+          "cost": 0.2232,
+          "currency": "UF",
+          "price": 0.279
+        },
+        "total": {
+          "copay": 0.0798,
+          "cost": 0.3192,
+          "currency": "UF",
+          "price": 0.399
+        }
+      },
+      {
+        "age": 65,
+        "childs": 1,
+        "dentalCare": {
+          "copay": 0.039,
+          "cost": 0.156,
+          "currency": "UF",
+          "price": 0.195
+        },
+        "health": {
+          "copay": 0.08792,
+          "cost": 0.35168,
+          "currency": "UF",
+          "price": 0.4396
+        },
+        "total": {
+          "copay": 0.12692,
+          "cost": 0.50768,
+          "currency": "UF",
+          "price": 0.6346
+        }
+      }
+    ]
+  }
+}

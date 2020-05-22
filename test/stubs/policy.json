@@ -1,0 +1,29 @@
+{
+    "message": "Go Serverless v1.0! Your function executed successfully!",
+    "policy": {
+        "workers": [
+            {
+                "age": 67,
+                "childs": 4
+            },
+            {
+                "age": 34,
+                "childs": 3
+            },
+            {
+                "age": 50,
+                "childs": 2
+            },
+            {
+                "age": 46,
+                "childs": 0
+            },
+            {
+                "age": 65,
+                "childs": 1
+            }
+        ],
+        "has_dental_care": false,
+        "company_percentage": 80
+    }
+}
